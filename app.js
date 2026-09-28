@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   const LS_KEY = 'bisayaCards.v1';
-  const VERSION = '1.0.0';
+  const VERSION = '1.1.0';
 
   let deck = null;           // {title, categories, cards}
   let progress = null;       // {settings, cards: {sid: state}, history, version}
@@ -14,7 +14,8 @@
 
   const $ = (id) => document.getElementById(id);
   const views = {
-    home: $('view-home'), study: $('view-study'), browse: $('view-browse'), settings: $('view-settings')
+    home: $('view-home'), study: $('view-study'), browse: $('view-browse'), settings: $('view-settings'),
+    testSetup: $('view-testSetup'), test: $('view-test'), testResults: $('view-testResults')
   };
 
   // ---------- storage ----------
@@ -35,15 +36,16 @@
   function loadProgress() {
     try {
       const raw = localStorage.getItem(LS_KEY);
-      if (!raw) return { settings: defaultSettings(), cards: {}, version: VERSION };
+      if (!raw) return { settings: defaultSettings(), cards: {}, tests: [], version: VERSION };
       const p = JSON.parse(raw);
       p.settings = Object.assign(defaultSettings(), p.settings || {});
       p.cards = p.cards || {};
+      p.tests = Array.isArray(p.tests) ? p.tests : [];
       p.version = VERSION;
       return p;
     } catch (e) {
       console.warn('progress load failed', e);
-      return { settings: defaultSettings(), cards: {}, version: VERSION };
+      return { settings: defaultSettings(), cards: {}, tests: [], version: VERSION };
     }
   }
 
@@ -109,7 +111,9 @@
     }
     // Stable-ish shuffle for reviews & new; keep learning FIFO by due
     learning.sort((a, b) => getState(a.sid).due - getState(b.sid).due);
-    shuffle(review);   // new cards stay in document order (deck order)
+    shuffle(review);   // new cards stay in document order (deck order)...
+    // ...except words missed in a test, which jump the new-card line
+    news.sort((a, b) => (getState(b.sid).priority || 0) - (getState(a.sid).priority || 0));
 
     const key = SRS.dayKey(now);
     const used = progress.settings.newIntroducedOn[key] || 0;
@@ -306,7 +310,8 @@
     view = name;
     for (const [k, el] of Object.entries(views)) el.hidden = k !== name;
     $('backBtn').hidden = name === 'home';
-    $('title').textContent = ({ home: 'Bisaya Cards', study: 'Study', browse: 'Browse', settings: 'Settings' })[name];
+    $('title').textContent = ({ home: 'Bisaya Cards', study: 'Study', browse: 'Browse', settings: 'Settings', testSetup: 'Test', test: 'Test', testResults: 'Test results' })[name];
+    if (name === 'testSetup') QuizUI.renderSetup();
     if (name === 'browse') renderBrowse();
     if (name === 'settings') renderSettings();
     if (name === 'home') updateHome();
@@ -325,6 +330,7 @@
     $('statStreak').textContent = c.streak;
     $('statReviewsToday').textContent = c.reviewsToday;
     $('startBtn').disabled = c.dueNow === 0;
+    $('testSummary').textContent = QuizUI.homeSummary();
     $('doneMsg').hidden = c.dueNow !== 0;
     // sync direction segment
     for (const b of $('dirSeg').querySelectorAll('button')) {
@@ -435,12 +441,13 @@
         progress = {
           settings: Object.assign(defaultSettings(), p.settings),
           cards: p.cards,
+          tests: Array.isArray(p.tests) ? p.tests : [],
           version: VERSION
         };
         saveProgress();
         updateHome();
         renderSettings();
-        $('backupMsg').textContent = 'Imported ' + Object.keys(progress.cards).length + ' card states.';
+        $('backupMsg').textContent = 'Imported ' + Object.keys(progress.cards).length + ' card states and ' + progress.tests.length + ' test results.';
         toast('Progress imported');
       } catch (e) {
         $('backupMsg').textContent = 'Import failed: ' + e.message;
@@ -493,7 +500,7 @@
     $('importFile').onchange = (e) => { if (e.target.files[0]) importProgress(e.target.files[0]); e.target.value = ''; };
     $('resetBtn').onclick = () => {
       if (!confirm('Erase all study progress on this device? This cannot be undone unless you exported a backup.')) return;
-      progress = { settings: defaultSettings(), cards: {}, version: VERSION };
+      progress = { settings: defaultSettings(), cards: {}, tests: [], version: VERSION };
       saveProgress(); updateHome(); renderSettings(); toast('Progress reset');
     };
   }
@@ -507,6 +514,9 @@
       // first run: all on
     }
     wire();
+    QuizUI.initUI({
+      deck: () => deck, progress: () => progress, save: saveProgress, showView, sid, toast, esc, SRS
+    });
     updateHome();
     if ('serviceWorker' in navigator) {
       try { await navigator.serviceWorker.register('sw.js'); } catch (e) { console.warn(e); }

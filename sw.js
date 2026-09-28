@@ -1,11 +1,12 @@
 /* Offline-first service worker for Bisaya Cards. */
-const CACHE = 'bisaya-v1';
+const CACHE = 'bisaya-v2';
 const ASSETS = [
   './',
   './index.html',
   './styles.css',
   './app.js',
   './srs.js',
+  './quiz.js',
   './cards.json',
   './manifest.webmanifest',
   './icons/icon-192.png',
@@ -15,7 +16,7 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS.map(u => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {

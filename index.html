@@ -49,6 +49,7 @@
   <p class="muted small center" id="filterNote"></p>
 
   <nav class="menu">
+    <button class="btn test-btn" id="testBtn">📝 Test yourself<small id="testSummary"></small></button>
     <button class="btn" data-go="browse">📖 Browse &amp; search</button>
     <button class="btn" data-go="settings">⚙️ Settings &amp; backup</button>
   </nav>
@@ -71,6 +72,76 @@
   </div>
   <button class="btn primary big" id="showBtn">Show answer</button>
   <button class="link" id="undoBtn" hidden>↶ Undo last</button>
+</section>
+
+<!-- TEST SETUP -->
+<section id="view-testSetup" class="view" hidden>
+  <h2>Direction</h2>
+  <div class="seg" id="tDir">
+    <button data-v="b2e">Bisaya → English</button>
+    <button data-v="mixed">Mixed</button>
+    <button data-v="e2b">English → Bisaya</button>
+  </div>
+  <h2>Question type</h2>
+  <div class="seg" id="tType">
+    <button data-v="mc">Multiple choice</button>
+    <button data-v="typed">Typed</button>
+    <button data-v="mixed">Mixed</button>
+  </div>
+  <h2>Number of questions</h2>
+  <div class="seg" id="tCount">
+    <button data-v="10">10</button>
+    <button data-v="20">20</button>
+    <button data-v="30">30</button>
+    <button data-v="all">All</button>
+  </div>
+  <button class="btn primary big" id="tStart">Start test</button>
+  <h2>Categories</h2>
+  <details class="cat-details">
+    <summary id="tCatSummary">All categories</summary>
+    <div class="cat-actions"><button class="btn small" id="tCatAll">All</button><button class="btn small" id="tCatNone">None</button></div>
+    <div id="tCatList" class="cat-list"></div>
+  </details>
+  <h2>Recent results</h2>
+  <div id="tHistory"></div>
+</section>
+
+<!-- TEST QUESTION -->
+<section id="view-test" class="view" hidden>
+  <div class="study-meta"><span id="tProgress"></span><span id="tScore"></span></div>
+  <div class="bar"><div id="tBar"></div></div>
+  <div class="card qcard">
+    <div class="dir-label" id="tDirLabel"></div>
+    <div class="front" id="tPrompt"></div>
+    <span class="pill qcat" id="tCat"></span>
+  </div>
+  <div class="options" id="tOptions"></div>
+  <form id="tTypedForm" class="typed" hidden autocomplete="off">
+    <input id="tInput" type="text" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done">
+    <button class="btn primary" id="tSubmit" type="submit">Check</button>
+  </form>
+  <div class="feedback" id="tFeedback" role="status" hidden></div>
+  <button class="btn" id="tOverride" hidden>👍 I was right</button>
+  <button class="btn primary big" id="tNext" hidden>Next →</button>
+</section>
+
+<!-- TEST RESULTS -->
+<section id="view-testResults" class="view" hidden>
+  <div class="hero">
+    <div class="due-big" id="rPct">0%</div>
+    <div class="hero-sub" id="rScore"></div>
+    <p id="rMsg"></p>
+  </div>
+  <button class="btn primary big" id="tRetake">Retake missed</button>
+  <button class="btn" id="tAgain">New test</button>
+  <button class="btn" id="tHome">Home</button>
+  <div id="rMissedWrap">
+    <h2>Missed words</h2>
+    <p class="muted small">These words now come up first in your flashcard study.</p>
+    <ul class="list" id="rMissed"></ul>
+  </div>
+  <h2>Recent results</h2>
+  <div id="rHistory"></div>
 </section>
 
 <!-- BROWSE -->
@@ -113,6 +184,7 @@
 </main>
 <div class="toast" id="toast" hidden></div>
 <script src="srs.js"></script>
+<script src="quiz.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
