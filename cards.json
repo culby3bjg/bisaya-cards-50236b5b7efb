@@ -1,0 +1,1840 @@
+{
+ "title": "Learn Bisaya",
+ "source": "Learn Bisaya.docx",
+ "categories": [
+  "Greatings",
+  "Pronoun Chart",
+  "Future",
+  "Past",
+  "Questions",
+  "Pronouns & Basic People",
+  "Common Verbs & Actions",
+  "Negation, Connectors & Particles",
+  "Demonstratives & Location",
+  "Time & Adverbs",
+  "Numbers (1–20 + basics)",
+  "Questions & Interrogatives",
+  "Family & Relationships",
+  "Food, Body & Daily Items",
+  "Adjectives & Qualities",
+  "Other Essentials",
+  "More Frequent Connectors & Misc.",
+  "Additional High-Use Words (161–200)",
+  "Connectors"
+ ],
+ "cards": [
+  {
+   "id": "cf31868bd",
+   "n": 1,
+   "category": "Greatings",
+   "bisaya": "Kumusta Ka?",
+   "english": "How are you"
+  },
+  {
+   "id": "c29ad158a",
+   "n": 2,
+   "category": "Greatings",
+   "bisaya": "Maayo man Ikaw?",
+   "english": "I am good, and you?",
+   "context": "Response"
+  },
+  {
+   "id": "c8f537b07",
+   "n": 3,
+   "category": "Greatings",
+   "bisaya": "Guapo gihapon",
+   "english": "Still handsome",
+   "context": "Humorous response"
+  },
+  {
+   "id": "c894d2cf8",
+   "n": 4,
+   "category": "Greatings",
+   "bisaya": "Sexy gihapon",
+   "english": "Still sexy",
+   "context": "Humorous response"
+  },
+  {
+   "id": "ccf10abed",
+   "n": 5,
+   "category": "Greatings",
+   "bisaya": "Maayong Buntag",
+   "english": "Good morning",
+   "breakdown": [
+    "Maayo = good",
+    "ng the connector",
+    "buntag = morning"
+   ]
+  },
+  {
+   "id": "c9a8fbcd2",
+   "n": 6,
+   "category": "Greatings",
+   "bisaya": "Maayong buntag pud",
+   "english": "(Response to “Good morning”)",
+   "context": "Response",
+   "flags": [
+    "No English given in the doc; English side shows it as the response to the previous phrase (see word breakdown)"
+   ],
+   "breakdown": [
+    "Maayo = good",
+    "ng the connector",
+    "buntag = morning",
+    "pud = also / too / as well"
+   ]
+  },
+  {
+   "id": "c404eea22",
+   "n": 7,
+   "category": "Greatings",
+   "bisaya": "Asa moadto",
+   "english": "Where are you going?"
+  },
+  {
+   "id": "c0c78ccd7",
+   "n": 8,
+   "category": "Greatings",
+   "bisaya": "Moadto ko sa _______",
+   "english": "I am going to _____",
+   "context": "Response",
+   "examples": [
+    "church / Simbahan"
+   ]
+  },
+  {
+   "id": "c6dabe3e8",
+   "n": 9,
+   "category": "Greatings",
+   "bisaya": "Didto sa _____",
+   "english": "There to the _____",
+   "context": "Slang Response",
+   "examples": [
+    "store / tindahan"
+   ]
+  },
+  {
+   "id": "cc58fdb8f",
+   "n": 10,
+   "category": "Greatings",
+   "bisaya": "Sa _____",
+   "english": "To _____",
+   "context": "Even shorter respons",
+   "notes": [
+    "Sa indicates the next word will be a location"
+   ],
+   "examples": [
+    "(the room) / kwarto"
+   ]
+  },
+  {
+   "id": "c4463ae96",
+   "n": 11,
+   "category": "Greatings",
+   "bisaya": "Naga unsa ka?",
+   "english": "What are you doing?"
+  },
+  {
+   "id": "ca78dd5b2",
+   "n": 12,
+   "category": "Greatings",
+   "bisaya": "Naga _____ ko",
+   "english": "I am _____",
+   "context": "Response",
+   "examples": [
+    "working / trabaho",
+    "studying / tuon",
+    "eating / kaon"
+   ],
+   "flags": [
+    "Uses '/' instead of '=' between English and Bisaya; split as English 'I am _____' / Bisaya 'Naga _____ ko'"
+   ]
+  },
+  {
+   "id": "cd468775e",
+   "n": 13,
+   "category": "Greatings",
+   "bisaya": "Nag unsa ka?",
+   "english": "What did you do?"
+  },
+  {
+   "id": "c6c513b7d",
+   "n": 14,
+   "category": "Pronoun Chart",
+   "bisaya": "Ako / Ko",
+   "english": "1st (I/We) · Singular",
+   "notes": [
+    "Ako (full) Ko (short)"
+   ],
+   "flags": [
+    "From the pronoun table: English side is built from the table's row/column headers",
+    "Duplicate Bisaya entry, also in #32 (Pronouns & Basic People)"
+   ]
+  },
+  {
+   "id": "c97f7c182",
+   "n": 15,
+   "category": "Pronoun Chart",
+   "bisaya": "Kami / Mi",
+   "english": "1st (I/We) · Plural (Exclusive)",
+   "notes": [
+    "Kami (full) Mi (short)"
+   ],
+   "flags": [
+    "From the pronoun table: English side is built from the table's row/column headers"
+   ]
+  },
+  {
+   "id": "c0d676461",
+   "n": 16,
+   "category": "Pronoun Chart",
+   "bisaya": "Kita / Ta",
+   "english": "1st (I/We) · Plural (Inclusive)",
+   "notes": [
+    "Kita (full) Ta (short)"
+   ],
+   "flags": [
+    "From the pronoun table: English side is built from the table's row/column headers"
+   ]
+  },
+  {
+   "id": "cc99f309b",
+   "n": 17,
+   "category": "Pronoun Chart",
+   "bisaya": "Ikaw / Ka",
+   "english": "2nd (You) · Singular",
+   "notes": [
+    "Ikaw (full) Ka (short)"
+   ],
+   "flags": [
+    "From the pronoun table: English side is built from the table's row/column headers",
+    "Duplicate Bisaya entry, also in #33 (Pronouns & Basic People)"
+   ]
+  },
+  {
+   "id": "c82b01dcf",
+   "n": 18,
+   "category": "Pronoun Chart",
+   "bisaya": "Kamo / Mo",
+   "english": "2nd (You) · Plural",
+   "notes": [
+    "Kamo (full) Mo (short)"
+   ],
+   "flags": [
+    "From the pronoun table: English side is built from the table's row/column headers"
+   ]
+  },
+  {
+   "id": "c8bafdffd",
+   "n": 19,
+   "category": "Pronoun Chart",
+   "bisaya": "Siya / Sya",
+   "english": "3rd (He/She/They) · Singular",
+   "notes": [
+    "Siya (full) Sya (short)"
+   ],
+   "flags": [
+    "From the pronoun table: English side is built from the table's row/column headers"
+   ]
+  },
+  {
+   "id": "c6e5ed591",
+   "n": 20,
+   "category": "Pronoun Chart",
+   "bisaya": "Sila",
+   "english": "3rd (He/She/They) · Plural",
+   "notes": [
+    "Sila (full)"
+   ],
+   "flags": [
+    "From the pronoun table: English side is built from the table's row/column headers",
+    "Duplicate Bisaya entry, also in #38 (Pronouns & Basic People)"
+   ]
+  },
+  {
+   "id": "cc45f7894",
+   "n": 21,
+   "category": "Future",
+   "bisaya": "Mu",
+   "english": "I will",
+   "notes": [
+    "\"mu-\" is a punctual/active verbal prefix used to indicate future or intended action (like \"will\" or \"going to\")."
+   ]
+  },
+  {
+   "id": "cd5840376",
+   "n": 22,
+   "category": "Past",
+   "bisaya": "mi- or ni-",
+   "english": "I did",
+   "examples": [
+    "e.g., miadto or niadto = went / did go"
+   ],
+   "notes": [
+    "\"Mi-\" and \"ni-\" are basically interchangeable in everyday speech (mi- is slightly more formal in some areas)."
+   ]
+  },
+  {
+   "id": "c4d465ead",
+   "n": 23,
+   "category": "Past",
+   "bisaya": "Gibuhat ko",
+   "english": "I did it",
+   "notes": [
+    "Most natural for \"I did it\" (using gi- prefix for completed action)"
+   ]
+  },
+  {
+   "id": "c81ef3d53",
+   "n": 24,
+   "category": "Past",
+   "bisaya": "Miadto ko or Niadto ko",
+   "english": "I went",
+   "notes": [
+    "From muadto (will go)"
+   ]
+  },
+  {
+   "id": "c5ecfb92c",
+   "n": 25,
+   "category": "Past",
+   "bisaya": "Mikaon ko or Nikaon ko",
+   "english": "I ate",
+   "notes": [
+    "From mukaon (will eat)"
+   ]
+  },
+  {
+   "id": "c918e1b41",
+   "n": 26,
+   "category": "Past",
+   "bisaya": "Mipalit ko or Nipalit ko",
+   "english": "I bought",
+   "notes": [
+    "From mupalit (will buy)"
+   ]
+  },
+  {
+   "id": "c88453da4",
+   "n": 27,
+   "category": "Past",
+   "bisaya": "Milakaw ko",
+   "english": "I walked / left",
+   "notes": [
+    "From mulakaw"
+   ]
+  },
+  {
+   "id": "c57b81ff1",
+   "n": 28,
+   "category": "Past",
+   "bisaya": "Niabot ko",
+   "english": "I arrived",
+   "notes": [
+    "From muabot"
+   ]
+  },
+  {
+   "id": "c8bb3c9f5",
+   "n": 29,
+   "category": "Past",
+   "bisaya": "Nihilak ko",
+   "english": "I cried",
+   "notes": [
+    "From muhilak"
+   ]
+  },
+  {
+   "id": "c7a6eb04b",
+   "n": 30,
+   "category": "Questions",
+   "bisaya": "Unsa ni?",
+   "english": "What is this?"
+  },
+  {
+   "id": "c9e257732",
+   "n": 31,
+   "category": "Questions",
+   "bisaya": "Unsa na?",
+   "english": "What is that?"
+  },
+  {
+   "id": "cbef150f6",
+   "n": 32,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Ako / Ko",
+   "english": "I / me",
+   "flags": [
+    "Duplicate Bisaya entry, also in #14 (Pronoun Chart)"
+   ]
+  },
+  {
+   "id": "c1a9592f4",
+   "n": 33,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Ikaw / Ka",
+   "english": "you (singular)",
+   "flags": [
+    "Duplicate Bisaya entry, also in #17 (Pronoun Chart)"
+   ]
+  },
+  {
+   "id": "c784e5818",
+   "n": 34,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Siya",
+   "english": "he / she / it"
+  },
+  {
+   "id": "c9d32038e",
+   "n": 35,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Kami",
+   "english": "we (exclusive)"
+  },
+  {
+   "id": "c1d093c75",
+   "n": 36,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Kita",
+   "english": "we (inclusive)"
+  },
+  {
+   "id": "c69ec39ce",
+   "n": 37,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Kamo",
+   "english": "you (plural)"
+  },
+  {
+   "id": "cdda8099c",
+   "n": 38,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Sila",
+   "english": "they",
+   "flags": [
+    "Duplicate Bisaya entry, also in #20 (Pronoun Chart)"
+   ]
+  },
+  {
+   "id": "cfece95a0",
+   "n": 39,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Tawo",
+   "english": "person / man / human"
+  },
+  {
+   "id": "cdf81b8b4",
+   "n": 40,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Anak / Bata",
+   "english": "child / kid"
+  },
+  {
+   "id": "c8f80f26e",
+   "n": 41,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Babaye",
+   "english": "woman / girl"
+  },
+  {
+   "id": "ccd218e96",
+   "n": 42,
+   "category": "Pronouns & Basic People",
+   "bisaya": "Lalaki",
+   "english": "man / boy"
+  },
+  {
+   "id": "c0575ecb0",
+   "n": 43,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Kaon",
+   "english": "eat"
+  },
+  {
+   "id": "cb37e9f96",
+   "n": 44,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Inom",
+   "english": "drink"
+  },
+  {
+   "id": "c9915ef11",
+   "n": 45,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Tulog",
+   "english": "sleep"
+  },
+  {
+   "id": "c7dedd862",
+   "n": 46,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Lakaw",
+   "english": "walk / go"
+  },
+  {
+   "id": "c42a31269",
+   "n": 47,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Sulti",
+   "english": "speak / talk / say"
+  },
+  {
+   "id": "cab52ca7c",
+   "n": 48,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Tan-aw",
+   "english": "look / see / watch"
+  },
+  {
+   "id": "c3fbb1882",
+   "n": 49,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Dungog",
+   "english": "hear / listen"
+  },
+  {
+   "id": "c689e39c2",
+   "n": 50,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Buhat",
+   "english": "do / make"
+  },
+  {
+   "id": "cd56473a6",
+   "n": 51,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Hatag",
+   "english": "give"
+  },
+  {
+   "id": "c39565f59",
+   "n": 52,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Kuha",
+   "english": "get / take"
+  },
+  {
+   "id": "c4b31bafa",
+   "n": 53,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Pangita",
+   "english": "look for / find"
+  },
+  {
+   "id": "c246e53e2",
+   "n": 54,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Gusto",
+   "english": "want / like"
+  },
+  {
+   "id": "cefa25f0b",
+   "n": 55,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Mahimo",
+   "english": "can / able to"
+  },
+  {
+   "id": "cba3d194c",
+   "n": 56,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Mahadlok",
+   "english": "fear"
+  },
+  {
+   "id": "c4e23a9de",
+   "n": 57,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Katawa",
+   "english": "laugh"
+  },
+  {
+   "id": "ca38cf0e9",
+   "n": 58,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Hilak",
+   "english": "cry"
+  },
+  {
+   "id": "cc773af11",
+   "n": 59,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Dagan",
+   "english": "run"
+  },
+  {
+   "id": "c5f76216b",
+   "n": 60,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Lingkod",
+   "english": "sit"
+  },
+  {
+   "id": "cfd763fa4",
+   "n": 61,
+   "category": "Common Verbs & Actions",
+   "bisaya": "Tindog",
+   "english": "stand"
+  },
+  {
+   "id": "c93aabcf3",
+   "n": 62,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Dili",
+   "english": "no / not"
+  },
+  {
+   "id": "ca23e309a",
+   "n": 63,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Oo",
+   "english": "yes"
+  },
+  {
+   "id": "c074c524e",
+   "n": 64,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Ug",
+   "english": "and",
+   "flags": [
+    "Duplicate Bisaya entry, also in #184 (More Frequent Connectors & Misc.)"
+   ]
+  },
+  {
+   "id": "cf17024b4",
+   "n": 65,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "O",
+   "english": "or",
+   "flags": [
+    "Duplicate Bisaya entry, also in #185 (More Frequent Connectors & Misc.)"
+   ]
+  },
+  {
+   "id": "cf8bdacbb",
+   "n": 66,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Apan / Pero",
+   "english": "but"
+  },
+  {
+   "id": "cb07be2fa",
+   "n": 67,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Tungod",
+   "english": "because"
+  },
+  {
+   "id": "c9be0fe38",
+   "n": 68,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Aron",
+   "english": "so that / in order to"
+  },
+  {
+   "id": "c78ab8e02",
+   "n": 69,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Usab",
+   "english": "also / again / too"
+  },
+  {
+   "id": "cbf68f2c4",
+   "n": 70,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Lang",
+   "english": "only / just"
+  },
+  {
+   "id": "cabeafab9",
+   "n": 71,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Na",
+   "english": "already",
+   "flags": [
+    "Duplicate Bisaya entry, also in #188 (More Frequent Connectors & Misc.)"
+   ]
+  },
+  {
+   "id": "c83d55b22",
+   "n": 72,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Pa",
+   "english": "still / yet",
+   "flags": [
+    "Duplicate Bisaya entry, also in #189 (More Frequent Connectors & Misc.)"
+   ]
+  },
+  {
+   "id": "ce6192275",
+   "n": 73,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Ra",
+   "english": "just / only (variant)"
+  },
+  {
+   "id": "c8a01f7a1",
+   "n": 74,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Bisan",
+   "english": "even / although"
+  },
+  {
+   "id": "c5c1e7125",
+   "n": 75,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Mao",
+   "english": "is / that is / exactly"
+  },
+  {
+   "id": "c9e64e9ca",
+   "n": 76,
+   "category": "Negation, Connectors & Particles",
+   "bisaya": "Wala",
+   "english": "none / no / without / left (direction)"
+  },
+  {
+   "id": "c2abc432c",
+   "n": 77,
+   "category": "Demonstratives & Location",
+   "bisaya": "Kini / Ni",
+   "english": "this (near speaker & listener)"
+  },
+  {
+   "id": "cc019b140",
+   "n": 78,
+   "category": "Demonstratives & Location",
+   "bisaya": "Kana / Na",
+   "english": "that (near listener)"
+  },
+  {
+   "id": "c467279c2",
+   "n": 79,
+   "category": "Demonstratives & Location",
+   "bisaya": "Kadto / To",
+   "english": "that (far)"
+  },
+  {
+   "id": "ce82ee821",
+   "n": 80,
+   "category": "Demonstratives & Location",
+   "bisaya": "Dinhi / Diri",
+   "english": "here"
+  },
+  {
+   "id": "c6029704a",
+   "n": 81,
+   "category": "Demonstratives & Location",
+   "bisaya": "Diha / Dira",
+   "english": "there (near)"
+  },
+  {
+   "id": "c2346c801",
+   "n": 82,
+   "category": "Demonstratives & Location",
+   "bisaya": "Didto",
+   "english": "there (far)"
+  },
+  {
+   "id": "cc79c3d67",
+   "n": 83,
+   "category": "Demonstratives & Location",
+   "bisaya": "Asa",
+   "english": "where"
+  },
+  {
+   "id": "ca0a89c8f",
+   "n": 84,
+   "category": "Demonstratives & Location",
+   "bisaya": "Gikan",
+   "english": "from"
+  },
+  {
+   "id": "c3c3b2f0c",
+   "n": 85,
+   "category": "Demonstratives & Location",
+   "bisaya": "Ngadto",
+   "english": "to / toward"
+  },
+  {
+   "id": "ca9f65081",
+   "n": 86,
+   "category": "Demonstratives & Location",
+   "bisaya": "Ubos",
+   "english": "below / down"
+  },
+  {
+   "id": "cebd6ff33",
+   "n": 87,
+   "category": "Demonstratives & Location",
+   "bisaya": "Ibabaw",
+   "english": "above / on top"
+  },
+  {
+   "id": "c4af00813",
+   "n": 88,
+   "category": "Demonstratives & Location",
+   "bisaya": "Sulod",
+   "english": "inside"
+  },
+  {
+   "id": "c63a3b8da",
+   "n": 89,
+   "category": "Demonstratives & Location",
+   "bisaya": "Gawas",
+   "english": "outside"
+  },
+  {
+   "id": "c608abbb0",
+   "n": 90,
+   "category": "Time & Adverbs",
+   "bisaya": "Karon",
+   "english": "now"
+  },
+  {
+   "id": "cbf6ca1a0",
+   "n": 91,
+   "category": "Time & Adverbs",
+   "bisaya": "Unya",
+   "english": "later / then"
+  },
+  {
+   "id": "cbee1c69c",
+   "n": 92,
+   "category": "Time & Adverbs",
+   "bisaya": "Kaniadto",
+   "english": "before / in the past"
+  },
+  {
+   "id": "cdee48f30",
+   "n": 93,
+   "category": "Time & Adverbs",
+   "bisaya": "Adlaw",
+   "english": "day / sun"
+  },
+  {
+   "id": "cc0e3747c",
+   "n": 94,
+   "category": "Time & Adverbs",
+   "bisaya": "Gabii",
+   "english": "night / evening"
+  },
+  {
+   "id": "cd2a1f09b",
+   "n": 95,
+   "category": "Time & Adverbs",
+   "bisaya": "Buntag",
+   "english": "morning"
+  },
+  {
+   "id": "c672c868a",
+   "n": 96,
+   "category": "Time & Adverbs",
+   "bisaya": "Hapon",
+   "english": "afternoon"
+  },
+  {
+   "id": "cffa0e2e0",
+   "n": 97,
+   "category": "Time & Adverbs",
+   "bisaya": "Udto",
+   "english": "noon"
+  },
+  {
+   "id": "cdb6c0874",
+   "n": 98,
+   "category": "Time & Adverbs",
+   "bisaya": "Kanus-a",
+   "english": "when",
+   "flags": [
+    "Duplicate Bisaya entry, also in #119 (Questions & Interrogatives)"
+   ]
+  },
+  {
+   "id": "c5d4e088e",
+   "n": 99,
+   "category": "Time & Adverbs",
+   "bisaya": "Dili madugay",
+   "english": "soon"
+  },
+  {
+   "id": "c2e94d723",
+   "n": 100,
+   "category": "Time & Adverbs",
+   "bisaya": "Dugay",
+   "english": "long time / late"
+  },
+  {
+   "id": "c825b79a5",
+   "n": 101,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Usa",
+   "english": "one"
+  },
+  {
+   "id": "c6595ccea",
+   "n": 102,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Duha",
+   "english": "two"
+  },
+  {
+   "id": "c3904d049",
+   "n": 103,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Tulo",
+   "english": "three"
+  },
+  {
+   "id": "c2df5db22",
+   "n": 104,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Upat",
+   "english": "four"
+  },
+  {
+   "id": "c4f68f89a",
+   "n": 105,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Lima",
+   "english": "five"
+  },
+  {
+   "id": "caecfd9c0",
+   "n": 106,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Unom",
+   "english": "six"
+  },
+  {
+   "id": "c445c85fd",
+   "n": 107,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Pito",
+   "english": "seven"
+  },
+  {
+   "id": "cffff0baa",
+   "n": 108,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Walo",
+   "english": "eight"
+  },
+  {
+   "id": "c491cd662",
+   "n": 109,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Siyam",
+   "english": "nine"
+  },
+  {
+   "id": "c741430d3",
+   "n": 110,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Napulo",
+   "english": "ten"
+  },
+  {
+   "id": "cf56c9be3",
+   "n": 111,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Gatus",
+   "english": "hundred"
+  },
+  {
+   "id": "c2a0cdfaa",
+   "n": 112,
+   "category": "Numbers (1–20 + basics)",
+   "bisaya": "Libo",
+   "english": "thousand"
+  },
+  {
+   "id": "c503beceb",
+   "n": 113,
+   "category": "Questions & Interrogatives",
+   "bisaya": "Unsa",
+   "english": "what"
+  },
+  {
+   "id": "c0d64b097",
+   "n": 114,
+   "category": "Questions & Interrogatives",
+   "bisaya": "Kinsay",
+   "english": "who"
+  },
+  {
+   "id": "c18790ac0",
+   "n": 115,
+   "category": "Questions & Interrogatives",
+   "bisaya": "Asa / Diin",
+   "english": "where"
+  },
+  {
+   "id": "ce61b3d96",
+   "n": 116,
+   "category": "Questions & Interrogatives",
+   "bisaya": "Ngano",
+   "english": "why"
+  },
+  {
+   "id": "c9ea23ba7",
+   "n": 117,
+   "category": "Questions & Interrogatives",
+   "bisaya": "Unsaon",
+   "english": "how"
+  },
+  {
+   "id": "cd851b3f5",
+   "n": 118,
+   "category": "Questions & Interrogatives",
+   "bisaya": "Pila",
+   "english": "how much / how many"
+  },
+  {
+   "id": "c1d53f5b4",
+   "n": 119,
+   "category": "Questions & Interrogatives",
+   "bisaya": "Kanus-a",
+   "english": "when",
+   "flags": [
+    "Duplicate Bisaya entry, also in #98 (Time & Adverbs)"
+   ]
+  },
+  {
+   "id": "c208218b7",
+   "n": 120,
+   "category": "Family & Relationships",
+   "bisaya": "Inahan / Nanay",
+   "english": "mother"
+  },
+  {
+   "id": "cbd8038d3",
+   "n": 121,
+   "category": "Family & Relationships",
+   "bisaya": "Amahan / Tatay",
+   "english": "father"
+  },
+  {
+   "id": "c4b88ef0b",
+   "n": 122,
+   "category": "Family & Relationships",
+   "bisaya": "Asawa",
+   "english": "wife"
+  },
+  {
+   "id": "c089f7f25",
+   "n": 123,
+   "category": "Family & Relationships",
+   "bisaya": "Bana",
+   "english": "husband"
+  },
+  {
+   "id": "c64d9921b",
+   "n": 124,
+   "category": "Family & Relationships",
+   "bisaya": "Igsoon",
+   "english": "sibling"
+  },
+  {
+   "id": "cb4a16d54",
+   "n": 125,
+   "category": "Family & Relationships",
+   "bisaya": "Lolo / Apohan",
+   "english": "grandfather"
+  },
+  {
+   "id": "ce7336744",
+   "n": 126,
+   "category": "Family & Relationships",
+   "bisaya": "Lola",
+   "english": "grandmother"
+  },
+  {
+   "id": "cba4918b6",
+   "n": 127,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Pagkaon",
+   "english": "food"
+  },
+  {
+   "id": "c64315467",
+   "n": 128,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Tubig",
+   "english": "water"
+  },
+  {
+   "id": "c63175b24",
+   "n": 129,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Isda",
+   "english": "fish",
+   "flags": [
+    "Duplicate Bisaya entry, also in #216 (Additional High-Use Words (161–200))"
+   ]
+  },
+  {
+   "id": "c8cfbea44",
+   "n": 130,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Pan",
+   "english": "bread"
+  },
+  {
+   "id": "c3dad1a19",
+   "n": 131,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Balay",
+   "english": "house / home"
+  },
+  {
+   "id": "c54c94df1",
+   "n": 132,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Ulo",
+   "english": "head"
+  },
+  {
+   "id": "c7ecd37d9",
+   "n": 133,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Mata",
+   "english": "eye"
+  },
+  {
+   "id": "c80705d0a",
+   "n": 134,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Ilong",
+   "english": "nose"
+  },
+  {
+   "id": "cdddfe2f8",
+   "n": 135,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Babâ",
+   "english": "mouth"
+  },
+  {
+   "id": "c01039610",
+   "n": 136,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Kamot",
+   "english": "hand"
+  },
+  {
+   "id": "c955b020b",
+   "n": 137,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Tiil",
+   "english": "foot / leg"
+  },
+  {
+   "id": "ca84fe4ab",
+   "n": 138,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Tiayan",
+   "english": "stomach / belly"
+  },
+  {
+   "id": "c7a53fd9e",
+   "n": 139,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Puso",
+   "english": "heart"
+  },
+  {
+   "id": "c1c3eeb8c",
+   "n": 140,
+   "category": "Food, Body & Daily Items",
+   "bisaya": "Lawas",
+   "english": "body"
+  },
+  {
+   "id": "ccad15736",
+   "n": 141,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Maayo",
+   "english": "good / well / okay"
+  },
+  {
+   "id": "c14ba6be5",
+   "n": 142,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Dako",
+   "english": "big"
+  },
+  {
+   "id": "c487775ea",
+   "n": 143,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Gamay",
+   "english": "small"
+  },
+  {
+   "id": "cc5668f3d",
+   "n": 144,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Taas",
+   "english": "tall / long / high"
+  },
+  {
+   "id": "c2a9c1e34",
+   "n": 145,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Mubô",
+   "english": "short"
+  },
+  {
+   "id": "c69ff2a4c",
+   "n": 146,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Lami",
+   "english": "delicious / tasty"
+  },
+  {
+   "id": "cb3a937c3",
+   "n": 147,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Init",
+   "english": "hot"
+  },
+  {
+   "id": "c2cf4bcfe",
+   "n": 148,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Bugnaw",
+   "english": "cold"
+  },
+  {
+   "id": "c44e90ab2",
+   "n": 149,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Bag-o",
+   "english": "new"
+  },
+  {
+   "id": "cebfe6670",
+   "n": 150,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Daotan",
+   "english": "bad"
+  },
+  {
+   "id": "cc0545c28",
+   "n": 151,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Gwapa",
+   "english": "beautiful (female)"
+  },
+  {
+   "id": "cf5a24bad",
+   "n": 152,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Gwapo",
+   "english": "handsome (male)"
+  },
+  {
+   "id": "c12e42141",
+   "n": 153,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Puno",
+   "english": "full"
+  },
+  {
+   "id": "c97afbbe1",
+   "n": 154,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Haw",
+   "english": "empty"
+  },
+  {
+   "id": "c6876dacf",
+   "n": 155,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Limpyo",
+   "english": "clean"
+  },
+  {
+   "id": "caa034a43",
+   "n": 156,
+   "category": "Adjectives & Qualities",
+   "bisaya": "Hugaw",
+   "english": "dirty"
+  },
+  {
+   "id": "ca0007f4f",
+   "n": 157,
+   "category": "Other Essentials",
+   "bisaya": "Salamat",
+   "english": "thank you"
+  },
+  {
+   "id": "cca3586c4",
+   "n": 158,
+   "category": "Other Essentials",
+   "bisaya": "Walay sapayan",
+   "english": "you're welcome"
+  },
+  {
+   "id": "cf72800cf",
+   "n": 159,
+   "category": "Other Essentials",
+   "bisaya": "Palihug",
+   "english": "please"
+  },
+  {
+   "id": "c7ec64085",
+   "n": 160,
+   "category": "Other Essentials",
+   "bisaya": "Pasaylo-a ko",
+   "english": "sorry / excuse me"
+  },
+  {
+   "id": "c2839c623",
+   "n": 161,
+   "category": "Other Essentials",
+   "bisaya": "Kumusta",
+   "english": "how are you?"
+  },
+  {
+   "id": "cf5f0a632",
+   "n": 162,
+   "category": "Other Essentials",
+   "bisaya": "Tabang",
+   "english": "help"
+  },
+  {
+   "id": "cc85dfeb3",
+   "n": 163,
+   "category": "Other Essentials",
+   "bisaya": "Bisan unsa",
+   "english": "anything"
+  },
+  {
+   "id": "c067945ca",
+   "n": 164,
+   "category": "Other Essentials",
+   "bisaya": "Tanan",
+   "english": "all / everything"
+  },
+  {
+   "id": "c898a6b3a",
+   "n": 165,
+   "category": "Other Essentials",
+   "bisaya": "Daghan",
+   "english": "many / a lot"
+  },
+  {
+   "id": "c850b0160",
+   "n": 166,
+   "category": "Other Essentials",
+   "bisaya": "Pipila",
+   "english": "few / some"
+  },
+  {
+   "id": "cd016e642",
+   "n": 167,
+   "category": "Other Essentials",
+   "bisaya": "Ubang",
+   "english": "other / another"
+  },
+  {
+   "id": "cd2f1f0ce",
+   "n": 168,
+   "category": "Other Essentials",
+   "bisaya": "Kaayo",
+   "english": "very"
+  },
+  {
+   "id": "c16619f4e",
+   "n": 169,
+   "category": "Other Essentials",
+   "bisaya": "Lamang",
+   "english": "only"
+  },
+  {
+   "id": "ccc5a9704",
+   "n": 170,
+   "category": "Other Essentials",
+   "bisaya": "Busa",
+   "english": "so / therefore"
+  },
+  {
+   "id": "c8367e009",
+   "n": 171,
+   "category": "Other Essentials",
+   "bisaya": "Pulong",
+   "english": "word"
+  },
+  {
+   "id": "cfa2698c0",
+   "n": 172,
+   "category": "Other Essentials",
+   "bisaya": "Ngalan",
+   "english": "name"
+  },
+  {
+   "id": "c681abdca",
+   "n": 173,
+   "category": "Other Essentials",
+   "bisaya": "Trabaho",
+   "english": "work / job"
+  },
+  {
+   "id": "c976cff24",
+   "n": 174,
+   "category": "Other Essentials",
+   "bisaya": "Panahon",
+   "english": "time / weather"
+  },
+  {
+   "id": "c46ecb7eb",
+   "n": 175,
+   "category": "Other Essentials",
+   "bisaya": "Dalan",
+   "english": "road / path"
+  },
+  {
+   "id": "cc460f357",
+   "n": 176,
+   "category": "Other Essentials",
+   "bisaya": "Sakay",
+   "english": "ride / board"
+  },
+  {
+   "id": "cbeb05d24",
+   "n": 177,
+   "category": "Other Essentials",
+   "bisaya": "Palit",
+   "english": "buy"
+  },
+  {
+   "id": "ca5e22d54",
+   "n": 178,
+   "category": "Other Essentials",
+   "bisaya": "Baligya",
+   "english": "sell"
+  },
+  {
+   "id": "c1e1737ca",
+   "n": 179,
+   "category": "Other Essentials",
+   "bisaya": "Presyo / Tagpila",
+   "english": "price / how much"
+  },
+  {
+   "id": "c2d08e789",
+   "n": 180,
+   "category": "Other Essentials",
+   "bisaya": "Lugar",
+   "english": "place"
+  },
+  {
+   "id": "cf9e98580",
+   "n": 181,
+   "category": "Other Essentials",
+   "bisaya": "Yuta",
+   "english": "land / earth / soil"
+  },
+  {
+   "id": "c18c0b611",
+   "n": 182,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Tungod kay",
+   "english": "because"
+  },
+  {
+   "id": "cd236ae2e",
+   "n": 183,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Apan",
+   "english": "but"
+  },
+  {
+   "id": "c5cb07fc9",
+   "n": 184,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Ug",
+   "english": "and",
+   "flags": [
+    "Duplicate Bisaya entry, also in #64 (Negation, Connectors & Particles)"
+   ]
+  },
+  {
+   "id": "ce60c03d2",
+   "n": 185,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "O",
+   "english": "or",
+   "flags": [
+    "Duplicate Bisaya entry, also in #65 (Negation, Connectors & Particles)"
+   ]
+  },
+  {
+   "id": "c66d46078",
+   "n": 186,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Kon",
+   "english": "if"
+  },
+  {
+   "id": "ca4a133e0",
+   "n": 187,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Kay",
+   "english": "because (variant)"
+  },
+  {
+   "id": "c7d36d46a",
+   "n": 188,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Na",
+   "english": "now / already (particle)",
+   "flags": [
+    "Duplicate Bisaya entry, also in #71 (Negation, Connectors & Particles)"
+   ]
+  },
+  {
+   "id": "c68ebf818",
+   "n": 189,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Pa",
+   "english": "still",
+   "flags": [
+    "Duplicate Bisaya entry, also in #72 (Negation, Connectors & Particles)"
+   ]
+  },
+  {
+   "id": "cbe15194e",
+   "n": 190,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Gyud",
+   "english": "really / indeed"
+  },
+  {
+   "id": "ca85c825e",
+   "n": 191,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Bitaw",
+   "english": "yes / right (agreement)"
+  },
+  {
+   "id": "c6de41295",
+   "n": 192,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Ambot",
+   "english": "I don't know"
+  },
+  {
+   "id": "ce3a26b5a",
+   "n": 193,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Tingali",
+   "english": "maybe"
+  },
+  {
+   "id": "c287d0ef9",
+   "n": 194,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Siguro",
+   "english": "probably / sure"
+  },
+  {
+   "id": "c77cbf3f7",
+   "n": 195,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Kinahanglan",
+   "english": "need / must"
+  },
+  {
+   "id": "c840ddce0",
+   "n": 196,
+   "category": "More Frequent Connectors & Misc.",
+   "bisaya": "Pwede",
+   "english": "can / possible"
+  },
+  {
+   "id": "c251a410a",
+   "n": 197,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Balik",
+   "english": "return / again"
+  },
+  {
+   "id": "cb2422537",
+   "n": 198,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Abot",
+   "english": "arrive / reach"
+  },
+  {
+   "id": "cc1d608db",
+   "n": 199,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Hulat",
+   "english": "wait"
+  },
+  {
+   "id": "c5484b2a8",
+   "n": 200,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Sulat",
+   "english": "write / letter"
+  },
+  {
+   "id": "c94a725d6",
+   "n": 201,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Basahon",
+   "english": "read"
+  },
+  {
+   "id": "c369d0a96",
+   "n": 202,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Basa",
+   "english": "wet"
+  },
+  {
+   "id": "ca7dfed7e",
+   "n": 203,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Uga",
+   "english": "dry"
+  },
+  {
+   "id": "c8192aab4",
+   "n": 204,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Pula",
+   "english": "red"
+  },
+  {
+   "id": "c1bd26ed5",
+   "n": 205,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Itom",
+   "english": "black"
+  },
+  {
+   "id": "c965dabdb",
+   "n": 206,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Puti",
+   "english": "white"
+  },
+  {
+   "id": "c6c30f242",
+   "n": 207,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Dalag",
+   "english": "yellow"
+  },
+  {
+   "id": "ce412b7a1",
+   "n": 208,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Bughaw",
+   "english": "blue"
+  },
+  {
+   "id": "c23ac438b",
+   "n": 209,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Kahoy",
+   "english": "tree / wood"
+  },
+  {
+   "id": "ca6dd7dd8",
+   "n": 210,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Dahon",
+   "english": "leaf"
+  },
+  {
+   "id": "c6c74dad5",
+   "n": 211,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Bunga",
+   "english": "fruit"
+  },
+  {
+   "id": "c641250a3",
+   "n": 212,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Bulak",
+   "english": "flower"
+  },
+  {
+   "id": "c2c607afa",
+   "n": 213,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Iro",
+   "english": "dog"
+  },
+  {
+   "id": "c3267019d",
+   "n": 214,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Kanding",
+   "english": "goat"
+  },
+  {
+   "id": "cd205563e",
+   "n": 215,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Langgam",
+   "english": "bird"
+  },
+  {
+   "id": "caf4c04ea",
+   "n": 216,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Isda",
+   "english": "fish (repeated for emphasis in lists)",
+   "flags": [
+    "Duplicate Bisaya entry, also in #129 (Food, Body & Daily Items)"
+   ]
+  },
+  {
+   "id": "cdb8125f4",
+   "n": 217,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Ulan",
+   "english": "rain"
+  },
+  {
+   "id": "c3336a502",
+   "n": 218,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Hangin",
+   "english": "wind / air"
+  },
+  {
+   "id": "c7fd2f522",
+   "n": 219,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Dagat",
+   "english": "sea"
+  },
+  {
+   "id": "c7c531dbe",
+   "n": 220,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Bukid",
+   "english": "mountain / farm"
+  },
+  {
+   "id": "c51ff2f9a",
+   "n": 221,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Lungsod",
+   "english": "town"
+  },
+  {
+   "id": "c859efb8d",
+   "n": 222,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Siyudad",
+   "english": "city"
+  },
+  {
+   "id": "cb54bf4c9",
+   "n": 223,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Tindahan",
+   "english": "store / shop"
+  },
+  {
+   "id": "cac989785",
+   "n": 224,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Eskwela",
+   "english": "school"
+  },
+  {
+   "id": "cd69970de",
+   "n": 225,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Libro",
+   "english": "book"
+  },
+  {
+   "id": "c2633fe23",
+   "n": 226,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Kwarta",
+   "english": "money"
+  },
+  {
+   "id": "c808bb058",
+   "n": 227,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Oras",
+   "english": "hour / time"
+  },
+  {
+   "id": "cb10ed3e7",
+   "n": 228,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Semana",
+   "english": "week"
+  },
+  {
+   "id": "caab77625",
+   "n": 229,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Buwan",
+   "english": "month / moon"
+  },
+  {
+   "id": "c581cbd95",
+   "n": 230,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Tuig",
+   "english": "year"
+  },
+  {
+   "id": "cbe7b5a1a",
+   "n": 231,
+   "category": "Additional High-Use Words (161–200)",
+   "bisaya": "Kinabuhi",
+   "english": "life"
+  },
+  {
+   "id": "c73b71365",
+   "n": 232,
+   "category": "Connectors",
+   "bisaya": "Nga / ng",
+   "english": "grammatical linker",
+   "notes": [
+    "Nga or its short form ng is a grammatical linker which connects words especially adjectives to nouns when describing something and is a required grammatical particle in Bisaya sentence structure."
+   ],
+   "flags": [
+    "Paragraph explanation, not a word pair; card made as 'Nga / ng' = 'grammatical linker' with the full paragraph as a note"
+   ]
+  },
+  {
+   "id": "c6d29c21c",
+   "n": 233,
+   "category": "Connectors",
+   "bisaya": "Mag / Mu",
+   "english": "I will"
+  },
+  {
+   "id": "cb1dc491a",
+   "n": 234,
+   "category": "Connectors",
+   "bisaya": "ako",
+   "english": "I am"
+  },
+  {
+   "id": "cfca7b2d6",
+   "n": 235,
+   "category": "Connectors",
+   "bisaya": "naay koy",
+   "english": "I have"
+  }
+ ]
+}

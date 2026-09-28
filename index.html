@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bisaya Cards</title>
+<meta name="description" content="Bisaya (Cebuano) vocabulary flashcards with spaced repetition">
+<meta name="theme-color" content="#0f766e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Bisaya">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon.png"
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="icon-btn" id="backBtn" aria-label="Back" hidden>‹</button>
+  <h1 id="title">Bisaya Cards</h1>
+  <span class="spacer"></span>
+</header>
+
+<main>
+<!-- HOME -->
+<section id="view-home" class="view">
+  <div class="hero">
+    <div class="due-big"><span id="dueCount">0</span><small>due now</small></div>
+    <div class="hero-sub"><span id="newCount">0</span> new · <span id="reviewCount">0</span> review · <span id="learnCount">0</span> learning</div>
+    <button class="btn primary big" id="startBtn">Study</button>
+    <p class="muted center" id="doneMsg" hidden>All caught up for now. 🎉</p>
+  </div>
+
+  <div class="seg" role="radiogroup" aria-label="Direction" id="dirSeg">
+    <button data-dir="b2e">Bisaya → English</button>
+    <button data-dir="both">Both</button>
+    <button data-dir="e2b">English → Bisaya</button>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b id="statLearned">0</b><span>learned</span></div>
+    <div class="stat"><b id="statDueToday">0</b><span>due today</span></div>
+    <div class="stat"><b id="statStreak">0</b><span>day streak</span></div>
+    <div class="stat"><b id="statReviewsToday">0</b><span>reviews today</span></div>
+  </div>
+  <p class="muted small center" id="filterNote"></p>
+
+  <nav class="menu">
+    <button class="btn" data-go="browse">📖 Browse &amp; search</button>
+    <button class="btn" data-go="settings">⚙️ Settings &amp; backup</button>
+  </nav>
+</section>
+
+<!-- STUDY -->
+<section id="view-study" class="view" hidden>
+  <div class="study-meta"><span id="qLeft"></span><span id="cardCat" class="pill"></span></div>
+  <div class="card" id="card" tabindex="0" role="button" aria-label="Flip card">
+    <div class="dir-label" id="dirLabel"></div>
+    <div class="front" id="front"></div>
+    <div class="back" id="back" hidden></div>
+    <div class="tap-hint" id="tapHint">Tap to flip</div>
+  </div>
+  <div class="grades" id="grades" hidden>
+    <button class="grade again" data-g="1"><span>Again</span><small></small></button>
+    <button class="grade hard" data-g="2"><span>Hard</span><small></small></button>
+    <button class="grade good" data-g="3"><span>Good</span><small></small></button>
+    <button class="grade easy" data-g="4"><span>Easy</span><small></small></button>
+  </div>
+  <button class="btn primary big" id="showBtn">Show answer</button>
+  <button class="link" id="undoBtn" hidden>↶ Undo last</button>
+</section>
+
+<!-- BROWSE -->
+<section id="view-browse" class="view" hidden>
+  <input type="search" id="search" placeholder="Search Bisaya or English…" autocomplete="off" autocapitalize="off" spellcheck="false">
+  <select id="browseCat" aria-label="Category"></select>
+  <p class="muted small" id="browseCount"></p>
+  <ul class="list" id="list"></ul>
+</section>
+
+<!-- SETTINGS -->
+<section id="view-settings" class="view" hidden>
+  <h2>Study</h2>
+  <label class="row">New cards per day
+    <span class="stepper"><button id="npdMinus" aria-label="Fewer">−</button><input id="npd" type="number" inputmode="numeric" min="0" max="500"><button id="npdPlus" aria-label="More">+</button></span>
+  </label>
+  <p class="muted small">Counts each direction separately (a word studied both ways is 2 cards).</p>
+  <label class="row">Direction
+    <select id="dirSelect">
+      <option value="both">Both directions</option>
+      <option value="b2e">Bisaya → English only</option>
+      <option value="e2b">English → Bisaya only</option>
+    </select>
+  </label>
+
+  <h2>Categories to study</h2>
+  <div class="cat-actions"><button class="btn small" id="catAll">All</button><button class="btn small" id="catNone">None</button></div>
+  <div id="catList" class="cat-list"></div>
+
+  <h2>Backup</h2>
+  <p class="muted small">Safari can clear website data. Export your progress now and then, and keep the file in iCloud Drive / Files.</p>
+  <button class="btn" id="exportBtn">⬇️ Export progress (.json)</button>
+  <label class="btn file-btn">⬆️ Import progress<input type="file" id="importFile" accept="application/json,.json" hidden></label>
+  <p class="small" id="backupMsg" role="status"></p>
+
+  <h2>Danger zone</h2>
+  <button class="btn danger" id="resetBtn">Reset all progress</button>
+  <p class="muted small center" id="versionInfo"></p>
+</section>
+</main>
+<div class="toast" id="toast" hidden></div>
+<script src="srs.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
